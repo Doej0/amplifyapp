@@ -120,6 +120,8 @@ export default function HomePage() {
           <h3>CALL OR EMAIL US NOW!</h3>
           <p>(912) 483-6224</p>
           <p>mwjtrucking.net@gmail.com</p>
+          <p>3601 Montgomery Street<br/>
+           P.O Box 24212<br/> Savannah, GA 31405</p>
           <br />
         </div>
       </div>
