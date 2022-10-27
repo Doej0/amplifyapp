@@ -9,7 +9,10 @@ export default function HomePage() {
 
       <article className="w3-row-padding w3-center w3-margin-top">
         <div className="w3-third">
-          <div className="w3-card w3-container" style={{ minHeight: "460px" }}>
+          <div
+            className="w3-card w3-pale-green w3-container"
+            style={{ minHeight: "460px" }}
+          >
             <h3 className="w3-padding-24">Trustworthy</h3>
             <br />
             <i
@@ -32,7 +35,10 @@ export default function HomePage() {
         </div>
 
         <div className="w3-third">
-          <div className="w3-card w3-container" style={{ minHeight: "460px" }}>
+          <div
+            className="w3-card w3-pale-green w3-container"
+            style={{ minHeight: "460px" }}
+          >
             <h3 className="w3-padding-24">Quick and Reliable</h3>
             <br />
             <i
@@ -53,7 +59,10 @@ export default function HomePage() {
         </div>
 
         <div className="w3-third">
-          <div className="w3-card w3-container" style={{ minHeight: "460px" }}>
+          <div
+            className="w3-card w3-pale-green w3-container"
+            style={{ minHeight: "460px" }}
+          >
             <h3 className="w3-padding-24">Professional and Courteous</h3>
             <br />
             <i
