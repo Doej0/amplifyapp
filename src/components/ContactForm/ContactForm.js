@@ -1,16 +1,18 @@
 import React from "react";
 import emailjs from 'emailjs-com';
 import {Form,Input,TextArea,Button} from 'semantic-ui-react';
-import Swal from "sweetalert2";
+import Swal from "sweetalert2"; //fancy pop up box
 import "./ContactForm.css";
 
 
 export default function ContactForm() {
+    //info needed from personal account on emailjs to recieve messages from form
     const SERVICE_ID = "service_vyish0l";
     const TEMPLATE_ID = "template_9yfns7h";
     const USER_ID = "RE2KAb7CSZVHxym1I";
 
     const handleOnSubmit = (e) =>{
+        //building promise
         e.preventDefault();
         emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID)
         .then((result) => {
